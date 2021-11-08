@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f0eed762-7ad0-48d3-9ea6-d240785e5f51": {
+      "ProjectGuid": "f0eed762-7ad0-48d3-9ea6-d240785e5f51",
+      "DisplayName": "bogosort",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
