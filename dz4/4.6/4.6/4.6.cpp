@@ -57,9 +57,6 @@ int ConvNumb(string numb)
 
 		}
 
-
-
-
 		res = res + np;
 
 		if (nm == np)
@@ -92,6 +89,7 @@ int ConvNumb(string numb)
 
 				res = res - 2 * nm;
 			}
+
 			flag = 1;
 			metka = nm;
 
