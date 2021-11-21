@@ -81,7 +81,7 @@ int ConvNumb(string numb)
 			if (nm < np)
 			{
 
-				if (((np != 5 * nm) && (np != 10 * nm)) || (flag > 1))
+				if (((np != 5 * nm) && (np != 10 * nm)))
 				{
 					cerr << "ERROR (IC, IIV)";
 					return 0;
@@ -91,9 +91,10 @@ int ConvNumb(string numb)
 			}
 
 			flag = 1;
-			metka = nm;
+			
 
 		}
+		metka = nm;
 		nm = np;
 
 
