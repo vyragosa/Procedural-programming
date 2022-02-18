@@ -3,27 +3,28 @@
 #define Contest2	S = 1000000; n = 20; m = 13313.5; //р = 15
 #define Contest3	S = 1000000; n = 19; m = 10294.2; //р = 10.5
 #define Contest4	S = 120; n = 1; m = 10; //р = 0
+#define Contest5	S = 100000; n =  1; m = 9166.67; //р = 10
 #include <math.h>
 #include <iostream>
 #include <fstream>
 #include <string>
 using namespace std;
 
-double  r, n, m, S, p, m0;
+double  r, n, m, S, p, m0, k;
 
 int main()
 {
 	cout << "s,n,m:" << endl;
-	Contest2
+	Contest5
 		//	cin >> S >> n >> m;
-		if (m >= (S / 12))
+		if (m == (S / 12))
 		{
 			cout << "p=" << 0 << endl;
 		}
 		else
 		{
 			p = 0;
-			while (m0 - m <= 1)
+			while (m0 - m <= 0.1)
 			{
 				p = p + 0.01;
 				r = p / 100;

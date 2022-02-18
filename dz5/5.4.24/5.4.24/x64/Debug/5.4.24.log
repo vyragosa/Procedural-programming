@@ -1,0 +1,6 @@
+﻿  5.4.24.cpp
+D:\Docs\Documents\GitHub\Procedural-programming\dz5\5.4.24\5.4.24\5.4.24.cpp(26,2): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Docs\Documents\GitHub\Procedural-programming\dz5\5.4.24\5.4.24\5.4.24.cpp(35,14): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+D:\Docs\Documents\GitHub\Procedural-programming\dz5\5.4.24\5.4.24\5.4.24.cpp(55,2): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Docs\Documents\GitHub\Procedural-programming\dz5\5.4.24\5.4.24\5.4.24.cpp(65,42): error C2065: CtrlHandler: необъявленный идентификатор
+D:\Docs\Documents\GitHub\Procedural-programming\dz5\5.4.24\5.4.24\5.4.24.cpp(66,2): error C3861: ReadInput: идентификатор не найден

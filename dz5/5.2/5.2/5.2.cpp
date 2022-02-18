@@ -1,41 +1,23 @@
-﻿#define _USE_MATH_DEFINES
-#include <math.h>
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <cstring>
-#include <limits.h> 
+﻿#include <iostream>
 using namespace std;
-int j;
-float a;
-bool k;
 int main()
 {
-    do
+    int n;
+    cin >> n;
+    int* a = new int[n + 1];
+    for (int i = 0; i < n + 1; i++)
     {
-        cout << "Enter number (must be natural and >2):\n";
-        cin >> a;
-        cout << endl;
-    } while ((a <= 2) || (a != (int)a));
-    k = true;
-    j = 3;
-    for (int i = 2; i <= a; i++)
-    {
-        while ((k == true) && (j < i / 2))
-        {
-
-            if ((i % j) == 0)
-            {
-                k = false;
-            }
-            j += 1;
-        }
-        if (k == true)
-        {
-            cout << i << endl;
-        }
-        j = 2;
-        k = true;
+        a[i] = i;
     }
-
+    for (int i = 2; i < n + 1; i++)
+    {
+        if (a[i] != 0)
+        {
+            cout << a[i] << endl;
+            for (int j = i * i; j < n + 1; j += i)
+            {
+                a[j] = 0;
+            }
+        }
+    }
 }
