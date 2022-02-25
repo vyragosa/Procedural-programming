@@ -1,5 +1,0 @@
-﻿  4.9.cpp
-D:\Docs\Documents\GitHub\Procedural-programming\dz4\4.9\4.9\4.9.cpp(14,2): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Docs\Documents\GitHub\Procedural-programming\dz4\4.9\4.9\4.9.cpp(23,14): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
-D:\Docs\Documents\GitHub\Procedural-programming\dz4\4.9\4.9\4.9.cpp(44,2): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  4.9.vcxproj -> D:\Docs\Documents\GitHub\Procedural-programming\dz4\4.9\x64\Debug\4.9.exe
